@@ -1,0 +1,68 @@
+### Caso 1: Bienvenida (GET /)
+GET http://localhost:3000/
+
+###
+
+### Caso 2: Listado Completo (GET /api/instrumentos)
+GET http://localhost:3000/api/instrumentos
+
+###
+
+### Caso 3: Filtro con Coincidencias
+GET http://localhost:3000/api/instrumentos?familia=Cuerda
+
+###
+
+### Caso 4: Filtro sin Coincidencias (Debe dar 200 y [])
+GET http://localhost:3000/api/instrumentos?familia=Inexistente
+
+###
+
+### Caso 5: Detalle Existente (Cambia el ID por uno real)
+GET http://localhost:3000/api/instrumentos/1
+
+###
+
+### Caso 6: Detalle Inexistente (Debe dar 404)
+GET http://localhost:3000/api/instrumentos/999
+
+###
+
+### Caso 7: Creación Válida (POST)
+POST http://localhost:3000/api/instrumentos
+Content-Type: application/json
+
+{
+  "nombre": "Ukelele Soprano",
+  "familia": "Cuerda",
+  "origen": "Hawái",
+  "descripcion": "Instrumento de cuatro cuerdas pulsadas",
+  "disponible": true
+}
+
+###
+
+### Caso 8: Creación con disponible en false
+POST http://localhost:3000/api/instrumentos
+Content-Type: application/json
+
+{
+  "nombre": "Batería Acústica",
+  "familia": "Percusión",
+  "origen": "Estados Unidos",
+  "descripcion": "Set de percusión estándar de 5 cuerpos",
+  "disponible": false
+}
+
+###
+
+### Caso 9: Creación Inválida - Falta Nombre (Debe dar 400)
+POST http://localhost:3000/api/instrumentos
+Content-Type: application/json
+
+{
+  "familia": "Viento",
+  "origen": "Alemania",
+  "descripcion": "Flauta traversa de metal",
+  "disponible": true
+}

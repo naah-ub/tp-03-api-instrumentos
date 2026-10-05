@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "Violin",
+        "familia": "Cuerda",
+        "origen": "Surgió en Italia a principios del siglo XVI, evolucionando a partir de instrumentos medievales y renacentistas frotados con arco como la viola da gamba y la lira da braccio. Luthieres como Stradivari y Amati perfeccionaron su diseño en el siglo XVII",
+        "descripcion": "nstrumento de cuatro cuerdas, el más agudo de su familia. Se apoya entre el hombro y la barbilla y se toca frotando un arco sobre las cuerdas",
+        "disponible": true
+    },
+    {
+        "id": 2,
+        "nombre": "Viola",
+        "familia": "Cuerda",
+        "origen": "Nació de forma paralela al violín en la Italia del siglo XVI. De hecho, la palabra 'viola' era el término genérico para los instrumentos de cuerda frotada de la época.",
+        "descripcion": "Similar al violín pero un poco más grande y gruesa. Su sonido es más opaco, profundo, cálido y melancólico.",
+        "disponible": true
+    },
+    {
+        "id": 3,
+        "nombre": "Violonchelo",
+        "familia": "Cuerda",
+        "origen": "Desarrollado en el siglo XVI en Italia para cubrir el registro grave que el violín y la viola no alcanzaban. Inicialmente se usaba solo como acompañamiento (bajo continuo).",
+        "descripcion": "Instrumento de gran tamaño que se toca sentado, sujetándolo entre las piernas y apoyado en el suelo mediante una pica de metal. Su timbre es muy similar al de la voz humana.",
+        "disponible": true
+    },
+    {
+        "id": 4,
+        "nombre": "Contrabajo",
+        "familia": "Cuerda",
+        "origen": "Evolucionó a partir de la violone (el miembro más grave de la familia de las violas da gamba) en la Europa del siglo XVI y XVII. Su forma actual combina rasgos de la viola y del violín.",
+        "descripcion": "El instrumento más grande y grave de la sección de cuerdas. Emite un sonido profundo que sirve de base armónica para toda la orquesta.",
+        "disponible": true
+    },
+    {
+        "id": 5,
+        "nombre": "Clarinete",
+        "familia": "Viento",
+        "origen": "Inventado en Alemania alrededor de 1700 por el constructor Johann Christoph Denner, quien modificó un instrumento popular llamado chalumeau.",
+        "descripcion": "Tubo cilíndrico de madera (generalmente ébano) con un pabellón acampanado. Utiliza una lengüeta simple sujeta a una boquilla. Su sonido es extremadamente versátil y cubre un amplio registro",
+        "disponible": false
+    },
+    {
+        "id": 6,
+        "nombre": "Trompeta",
+        "familia": "Viento",
+        "origen": "Sus ancestros eran tubos rectos de metal utilizados en el Antiguo Egipto, Grecia y Roma para funciones militares y religiosas. La trompeta moderna con pistones se desarrolló en Alemania a principios del siglo XIX.",
+        "descripcion": "El instrumento más pequeño y agudo de los metales. Tiene un tubo cilíndrico y tres pistones. Su sonido es potente, brillante y heroico.",
+        "disponible": true
+    },
+    {
+        "id": 7,
+        "nombre": "Tuba",
+        "familia": "Viento",
+        "origen": "Es el instrumento más joven de los metales. Fue patentado en Alemania en 1835 por Wilhelm Wieprecht y Johann Gottfried Moritz para dar un soporte grave y potente a las bandas militares y orquestas.",
+        "descripcion": "El instrumento más grande y grave de la sección de metal. Consiste en un enorme tubo cónico con pistones o válvulas y una campana que apunta hacia arriba.",
+        "disponible": false
+    },
+    {
+        "id": 8,
+        "nombre": "Piano",
+        "familia": "Percusion",
+        "origen": "Inventado en Italia alrededor de 1700 por Bartolomeo Cristofori. Su gran innovación fue un mecanismo que permitía tocar tanto suave (piano) como fuerte (forte), de ahí su nombre original: pianoforte.",
+        "descripcion": "Aunque tiene cuerdas, técnicamente es un instrumento de percusión con teclado, ya que el sonido se produce cuando unos pequeños martillos de fieltro golpean las cuerdas al presionar las teclas.",
+        "disponible": true
+    },
+    {
+        "id": 9,
+        "nombre": "Timbales",
+        "familia": "Percusion",
+        "origen": "Tienen su raíz en los tambores de caballería de Oriente Medio, introducidos en Europa durante las Cruzadas (siglo XIII). En el siglo XVII empezaron a formar parte fija de la orquesta europea.",
+        "descripcion": "Grandes calderos de cobre cubiertos por una membrana (parche). Son de afinación determinada, lo que significa que el músico puede cambiar la nota exacta utilizando un pedal.",
+        "disponible": true
+    },
+    {
+        "id": 10,
+        "nombre": "Platillos",
+        "familia": "Percusion",
+        "origen": "Originarios de Turquía y Asia Central, se usaban desde la antigüedad en rituales religiosos y desfiles militares. Fueron adoptados por la orquesta europea en el siglo XVIII para aportar exotismo y brillo.",
+        "descripcion": "Dos discos circulares de aleación de bronce. El sonido se produce al chocarlos entre sí de forma deslizante, creando un destello acústico muy ruidoso.",
+        "disponible": false
+    }
+]
